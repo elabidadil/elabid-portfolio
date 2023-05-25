@@ -1,0 +1,30 @@
+@use "../utilities/variables" as *;
+@use "../utilities/breakpoints" as *;
+@use "../utilities/placeholders" as *;
+
+// Home Page Mouse Scroll Animation
+@keyframes mouseScrolling {
+  0% {
+    top: 4px;
+  }
+
+  100% {
+    top: 26px;
+  }
+}
+
+
+// About Me Page Stamp Logo Animation
+@keyframes stampLogoRotation {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  50% {
+    transform: rotate(180deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
